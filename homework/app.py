@@ -4,7 +4,7 @@ from flask import render_template
 from flask import redirect
 from flask import session
 app=Flask(__name__)
-app.config['SECRET_KEY'] = 'laowangaigebi'
+app.config['SECRET_KEY'] = 'abc654_@123dda'
 
 #使用GET方法，首頁
 @app.route("/")
